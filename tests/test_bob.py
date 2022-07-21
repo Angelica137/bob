@@ -7,3 +7,7 @@ def test_input_is_question():
 
 def test_input_is_yell():
     assert bob("IS YELLING") == "Whoa, chill out!"
+
+
+def test_question_is_yelled():
+    assert bob("YELLING QUESTION?") == "Calm down, I know what I'm doing!"
