@@ -1,5 +1,3 @@
-from curses.ascii import isupper
-
 
 def bob(statement: str) -> str:
     if statement == "":
