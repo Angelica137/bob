@@ -8,3 +8,5 @@ def bob(statement: str) -> str:
         return "Sure."
     elif statement.isupper():
         return "Whoa, chill out!"
+    elif statement == "":
+        return "Fine. Be that way!"

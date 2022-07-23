@@ -11,3 +11,7 @@ def test_input_is_yell():
 
 def test_question_is_yelled():
     assert bob("YELLING QUESTION?") == "Calm down, I know what I'm doing!"
+
+
+def test_input_empty():
+    assert bob("") == "Fine. Be that way!"
