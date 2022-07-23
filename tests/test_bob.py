@@ -23,3 +23,7 @@ def test_any_other():
 
 def test_a_string_of_spaces():
     assert bob("     ") == "Fine. Be that way!"
+
+
+def test_case_1_spaces_at_end():
+    assert bob("wtf?   ")
