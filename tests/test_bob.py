@@ -15,3 +15,7 @@ def test_question_is_yelled():
 
 def test_input_empty():
     assert bob("") == "Fine. Be that way!"
+
+
+def test_any_other():
+    assert bob("No") == "Whatever"

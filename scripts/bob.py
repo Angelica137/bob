@@ -10,3 +10,4 @@ def bob(statement: str) -> str:
         return "Sure."
     elif statement.isupper():
         return "Whoa, chill out!"
+    return "Whatever"
