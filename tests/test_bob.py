@@ -18,7 +18,7 @@ def test_input_empty():
 
 
 def test_any_other():
-    assert bob("No") == "Whatever"
+    assert bob("No") == "Whatever."
 
 
 def test_a_string_of_spaces():
